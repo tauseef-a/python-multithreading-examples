@@ -12,6 +12,8 @@ import threading
 def MyFunction():
 	"""This is a user defined function"""
 	print "Hello World"
+	if ("1" == "2")
+            print "Equal"
 	return
 
 
