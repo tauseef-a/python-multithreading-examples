@@ -21,8 +21,9 @@ def Main():
 	Target means run this function when a thread is initiated."""
 	myThread = threading.Thread(target=MyFunction) 	
 	myThread.start() 	# Starting a thread
-	fp = open("def.txt")
-	fp.close()
+	try:
+		fp = open("def.txt")
+		fp.close()
 
 
 if __name__ == '__main__':
