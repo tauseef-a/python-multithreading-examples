@@ -12,6 +12,7 @@ import threading
 def MyFunction():
 	"""This is a user defined function"""
 	print "Hello World"
+	fp = open("file.abc")
 	return
 
 
