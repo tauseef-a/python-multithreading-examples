@@ -22,7 +22,9 @@ def Main():
 	myThread = threading.Thread(target=MyFunction) 	
 	myThread.start() 	# Starting a thread
 	fp = open("def.txt")
-	fp.close()
+	print("File opened success")
+	ilist = ['apple','cat','bat']
+	ilist.append('dog')
 
 
 if __name__ == '__main__':
