@@ -23,6 +23,7 @@ def Main():
 	myThread.start() 	# Starting a thread
 	fp = open("def.txt")
 	fp.close()
+	i = 2/0
 
 
 if __name__ == '__main__':
