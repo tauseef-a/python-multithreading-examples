@@ -23,6 +23,10 @@ def Main():
 	myThread.start() 	# Starting a thread
 	fp = open("def.txt")
 	fp.close()
+	ilist = None
+	for i in range(300):
+		ilist[i] = i*i
+	
 
 
 if __name__ == '__main__':
