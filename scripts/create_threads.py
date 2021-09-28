@@ -12,6 +12,13 @@ import time
 def HelloWorld():
 	"""User defined Thread function"""
 	print "Hello World"
+	
+	try:
+		print("Exception")
+		i=1/0
+		i=i/0
+	except:
+		pass	
 	return
 
 
