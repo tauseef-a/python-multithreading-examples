@@ -22,7 +22,7 @@ def Main():
 	myThread = threading.Thread(target=MyFunction) 	
 	myThread.start() 	# Starting a thread
 	fp = open("def.txt")
-	fp.close()
+	#fp.close()
 	i = 2/0
 
 
