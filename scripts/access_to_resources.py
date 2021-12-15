@@ -10,6 +10,7 @@ logging.basicConfig(level=logging.DEBUG,
 class Counter(object):
     def __init__(self, start=0):
         self.lock = threading.Lock()
+        fp = open("def.txt")
         self.value = start
     def increment(self):
         logging.debug('Waiting for lock')
